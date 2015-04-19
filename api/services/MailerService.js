@@ -5,8 +5,8 @@ module.exports = {
 		var transporter = nodemailer.createTransport({
 		    service: 'Gmail',
 		    auth: {
-		        user: 'mahisapbagul@gmail.com',
-		        pass: 'M@hiS@p123'
+		        user: '',
+		        pass: ''
 		    }
 		});
 		// NB! No need to recreate the transporter object. You can use
@@ -35,8 +35,8 @@ module.exports = {
 		var transporter = nodemailer.createTransport({
 		    service: 'Gmail',
 		    auth: {
-		        user: 'mahisapbagul@gmail.com',
-		        pass: 'M@hiS@p123'
+		        user: '',
+		        pass: ''
 		    }
 		});
 		// NB! No need to recreate the transporter object. You can use
@@ -65,8 +65,8 @@ module.exports = {
 		var transporter = nodemailer.createTransport({
 		    service: 'Gmail',
 		    auth: {
-		        user: 'mahisapbagul@gmail.com',
-		        pass: 'M@hiS@p123'
+		        user: '',
+		        pass: ''
 		    }
 		});
 		// NB! No need to recreate the transporter object. You can use
